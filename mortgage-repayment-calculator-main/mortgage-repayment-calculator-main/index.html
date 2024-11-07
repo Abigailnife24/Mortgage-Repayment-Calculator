@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MRC</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./app.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <div class="hero">
+      <div class="calculator">
+        <h2>Mortgage Calculator</h2>
+
+        <h3>Mortgage Amount</h3>
+        <form>
+            <div class="pound"><input class="inp" type="text"></div>
+    
+           <div class="wrapper">
+            <div class="years">
+              <h3>Mortgage Term</h3>    
+             <div class="year"><input class="yr" type="number"></div>
+           </div>
+            <div class="interest">
+              <h3>Interest Rate</h3>
+             <div class="percent"><input class="p" type="number"></div>
+            </div>
+           </div> 
+            
+            
+            <h3>Mortgage Type</h3>
+             <div class="radio">
+              <div class="repayment">
+                <input type="radio" id="repayment" name="choose" value="Repayment">
+              <label for="repayment">Repayment</label>
+              </div>
+              <div class="Interest">
+                <input type="radio" id="interest" name="choose" value="Interest-Only">
+                <label for="interest">Interest-Only</label>
+              </div>
+             </div>
+             <div class="btn-rep">
+              <img src="./assets/images/icon-calculator.svg" alt=""> 
+                 <span>  Calculate Repayments</span>
+            </div>
+            
+        </form>
+      </div>
+      <div class="result">
+        <img src="./assets/images/illustration-empty.svg" alt="">
+        <h2>Results shown here</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, quo.</p>
+      </div>
+    </div>
+  </div>
+   
+    
+
+</body>
+</html>
